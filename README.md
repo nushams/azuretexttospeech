@@ -10,6 +10,7 @@ This application utilizes the Azure AI SDK for text-to-speech functionality. It 
 - [Setup](#setup)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Azure Architecture Diagram](#azure-architecture-diagram)
 - [Contributing](#contributing)
 
 ## Overview
@@ -87,7 +88,7 @@ In the `Program.cs` file:
 var config = SpeechConfig.FromSubscription("YourSubscriptionKey", "YourRegion");
 ```
 
-Azure Architecture Diagram
+## Azure Architecture Diagram
 The following diagram outlines the architecture of the Azure AI Text-to-Speech App:
 
 ![image](./Speech/docs/architecture.png)
