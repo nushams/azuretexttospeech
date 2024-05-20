@@ -87,6 +87,11 @@ In the `Program.cs` file:
 var config = SpeechConfig.FromSubscription("YourSubscriptionKey", "YourRegion");
 ```
 
+Azure Architecture Diagram
+The following diagram outlines the architecture of the Azure AI Text-to-Speech App:
+
+![image](./Speech/docs/architecture.png)
+
 ## Contributing
 
 We welcome contributions! Please follow these steps:

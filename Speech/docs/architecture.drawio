@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2024-05-20T12:41:03.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="hf3uV72Y3fH4TIsKJ2Gm" version="24.4.4" type="device">
+  <diagram name="Page-1" id="WeB1aeBndufpOewrs9iX">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Z1-cuGSPNxy46G31O-on-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-1" target="Z1-cuGSPNxy46G31O-on-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-1" value="Given text" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/filesco/128/4.png" vertex="1" parent="1">
+          <mxGeometry x="100" y="310" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-3" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="328.25" width="50" height="31.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-14" value="Speech" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-4" target="Z1-cuGSPNxy46G31O-on-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="350" />
+              <mxPoint x="870" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-4" value="Azure AI Speech" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_sdk;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320.25" width="50" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-5" value="Audio" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.audio;" vertex="1" parent="1">
+          <mxGeometry x="379" y="530" width="69" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-2" target="Z1-cuGSPNxy46G31O-on-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-12" value="Text" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-2" target="Z1-cuGSPNxy46G31O-on-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="332" />
+              <mxPoint x="500" y="332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-3" target="Z1-cuGSPNxy46G31O-on-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="332" />
+              <mxPoint x="750" y="332" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.618;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Z1-cuGSPNxy46G31O-on-3" target="Z1-cuGSPNxy46G31O-on-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="352" />
+              <mxPoint x="590" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z1-cuGSPNxy46G31O-on-2" value="Script" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/icocentre-free-icons/152/f-code-c-sharp_128-128.png;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="310" width="68" height="68" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
